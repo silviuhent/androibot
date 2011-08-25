@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="SILLYBOT"/>
+<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="match_parent" android:text="请选择启动种类"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/button1" android:text="sms bot" android:onClick="smsbot_click"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/button2" android:layout_width="match_parent" android:text="irc bot" android:onClick="ircbot_click"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/button3" android:text="tap hijack" android:onClick="tap_hijack" android:visibility="invisible"></Button>
+</LinearLayout>
+</LinearLayout>
