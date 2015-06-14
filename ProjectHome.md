@@ -1,0 +1,1 @@
+androibot is a DEMO program of irc/sms based android bot
